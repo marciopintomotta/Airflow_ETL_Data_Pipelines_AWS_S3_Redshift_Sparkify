@@ -14,9 +14,12 @@ The source data resides in AW3 S3 and needs to be processed in Sparkify's data w
 
 ## Project Motivation
 
-My goal was building an high grade data pipelines solution that is dynamic and built from reusable tasks, which can be monitored, and allow easy backfills.
+My goal was building an high grade data pipelines solution with Airflow that is dynamic and built from reusable tasks, which can be monitored, and allow easy backfills.
 
 ![Alt text](https://github.com/marciopintomotta/Airflow_ETL_Data_Pipelines_AWS_S3_Redshift_Sparkify/blob/master/dag.png " Dag")
+
+
+![Alt text](https://github.com/marciopintomotta/Airflow_ETL_Data_Pipelines_AWS_S3_Redshift_Sparkify/blob/master/dag_all.png " Dag")
 
 
 ## Project Struct 
