@@ -1,11 +1,15 @@
 
-# Creating a Data Pipelines Solution using irflow ELT S3 Redshift  on AWS for the Music Streaming Service Sparkify
+# Creating a Data Pipelines Solution using Airflow ELT S3 Redshift  on AWS for the Music Streaming Service Sparkify
 
 ## Project Description 
 
 A music streaming company, Sparkify, has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and come to the conclusion that the best tool to achieve this is Apache Airflow.
 
 The source data resides in AW3 S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
+
+
+![Alt text](https://github.com/marciopintomotta/AWS_ELT_Data_Warehouse_S3_2_Redshift_Sparkify/blob/master/Sparkify_S3_to_Redshift_ELT.png "a Redshift ELT")
+
 
 
 ## Project Motivation
