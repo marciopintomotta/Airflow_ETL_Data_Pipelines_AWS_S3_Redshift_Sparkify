@@ -1,0 +1,2 @@
+project:
+  name: airflow-etl-data-pipelines-aws-s-3-redshift-sparkify
