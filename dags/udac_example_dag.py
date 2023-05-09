@@ -1,7 +1,7 @@
 
 """
     
-    This DAG responsible for running the all the tasks in the ETL data pipeline of Sparkify
+    This DAG is responsible for running the all the tasks in the ETL data pipeline of Sparkify
 
 """
 
