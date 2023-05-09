@@ -1,6 +1,6 @@
 """
     
-    This Class is responsible from S3 to Stage area in Redshift.
+    This Class is responsible for loading data from S3 to Stage area in Redshift.
 
 """
 

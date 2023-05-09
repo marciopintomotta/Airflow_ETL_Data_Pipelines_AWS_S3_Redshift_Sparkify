@@ -22,21 +22,12 @@ My goal was building an high grade data pipelines solution with Airflow that is 
 ![Alt text](https://github.com/marciopintomotta/Airflow_ETL_Data_Pipelines_AWS_S3_Redshift_Sparkify/blob/master/dag_all.png " Dag")
 
 
-## Project Struct 
-
-The project contains the following Struct:
-
-- dags: This folder contains the Python files for Airflow DAGs.
-   
-- Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
-- include: This folder contains any additional files that you want to include as part of your project. It is empty by default.
-- packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
-- requirements.txt: Install Python packages needed for your project by adding them to this file. It is empty by default.
-- plugins: Add custom or community plugins for your project to this file. It is empty by default.
-- airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
-
-
 ## Project Main Files 
 
-
-
+Airflow_ETL_Data_Pipelines_AWS_S3_Redshift_Sparkify/
+ ├── dags/udac_example_dag.py             Python script responsible for running the all the tasks in the ETL data pipeline of Sparkify
+ ├── plugins/operators/stage_redshift.py  Python script responsible for loading data from S3 to Stage area in Redshift.
+ └── plugins/operators/load_fact.py       Python script responsible for loading fact table.
+ ├── plugins/operators/load_dimension.py  Python script responsible for loading dimensional tables.
+ ├── plugins/operators/data_quality.py    Python script responsible for running the checks in data in the Redshift tables. 
+ 
