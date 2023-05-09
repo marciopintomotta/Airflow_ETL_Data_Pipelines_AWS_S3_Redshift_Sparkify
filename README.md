@@ -24,10 +24,8 @@ My goal was building an high grade data pipelines solution with Airflow that is 
 
 ## Project Main Files 
 
-Airflow_ETL_Data_Pipelines_AWS_S3_Redshift_Sparkify/
  *  dags/udac_example_dag.py -> Python script responsible for running the all the tasks in the ETL data pipeline of Sparkify
  * plugins/operators/stage_redshift.py -> Python script responsible for loading data from S3 to Stage area in Redshift.
  *  plugins/operators/load_fact.py -> Python script responsible for loading fact table.
  *  plugins/operators/load_dimension.py -> Python script responsible for loading dimensional tables.
- *  plugins/operators/data_quality.py ->  Python script responsible for running the checks in data in the Redshift tables. ->
- 
+ *  plugins/operators/data_quality.py ->  Python script responsible for running the checks in data in the Redshift tables.
